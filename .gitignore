@@ -1,0 +1,17 @@
+# GHDL simulation artifacts
+*.o
+e~*
+work-obj*.cf
+tb_neuron
+sim/waveform.vcd
+
+# C benchmark binary
+benchmarks/bench_c
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS metadata
+.DS_Store
+Thumbs.db
